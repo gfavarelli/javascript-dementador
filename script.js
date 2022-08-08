@@ -5,7 +5,6 @@ const gameConteudo = document.getElementById('game-conteudo');
 const tempoElemento = document.getElementById('tempo');
 const pontosElemento = document.getElementById('pontos');
 const mensagemElemento = document.getElementById('mensagem');
-const audioHP = document.getElementById('audio');
 let segundos = 0;
 let pontos = 0;
 let dementadorSelecionado = {};
