@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link href="http://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+    </head>
+    <body>
+           
+        <div class="tela">
+            <h1>Vamos ajudar o Harry a caçar Dementador?</h1>
+            <audio controls autoplay id="audio">
+                <source src="./harrypotter_music.mp3" type="audio/mpeg">
+            </audio>
+            <button class="btn" id="iniciar">Iniciar Game</button>
+        </div>
+        
+
+        <div class="tela">
+            <h1>Selecione qual Dementador deseja caçar:</h1>
+            <ul class="lista-dementador">
+                <li>
+                    <button class="escolher-lista-dementador">
+                        <p>Dementador 1</p>
+                        <img src="./imgs/dementador1.png" alt="dementador1"/>
+                    </button>
+                </li>
+                <li>
+                    <button class="escolher-lista-dementador">
+                        <p>Dementador 2</p>
+                        <img src="./imgs/dementador2.png" alt="dementador2"/>
+                    </button>
+                </li>
+                <li>
+                    <button class="escolher-lista-dementador">
+                        <p>Dementador 3</p>
+                        <img src="./imgs/dementador3.png" alt="dementador3"/>
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tela" id="game-conteudo">
+            <h3 id="tempo" class="tempo">Tempo: 00:00</h3>
+            <h3 id="pontos" class="pontos">Pontuação: 0</h3>
+            <h5 id="mensagem" class="mensagem">Ajude a salvar o Harry. Tem muitos dementadores em sua volta</h5>
+
+            <!-- <div class="dementador">
+                <img src="./imgs/dementador1.png" alt="dementador1" />
+            </div> -->
+        </div>
+
+    
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
